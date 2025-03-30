@@ -1,0 +1,343 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <!-- Basic -->
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <!-- Mobile Metas -->
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+  <!-- Site Metas -->
+  <meta name="keywords" content="" />
+  <meta name="description" content="" />
+  <meta name="author" content="" />
+
+  <title>MultiCreativa</title>
+  <link rel="website icon" type="png"
+    href="Imagenes/MultiCreativa.png"
+
+  <!-- slider stylesheet -->
+  <link rel="stylesheet" type="text/css"
+    href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.1.3/assets/owl.carousel.min.css" />
+
+  <!-- bootstrap core css -->
+  <link rel="stylesheet" type="text/css" href="css/bootstrap.css" />
+
+  <!-- fonts style -->
+  <link href="https://fonts.googleapis.com/css?family=Poppins|Raleway:400,600|Righteous&display=swap"
+    rel="stylesheet" />
+  <!-- Custom styles for this template -->
+  <link href="css/style.css" rel="stylesheet" />
+  <!-- responsive style -->
+  <link href="css/responsive.css" rel="stylesheet" />
+</head>
+
+<body>
+  <div class="hero_area">
+    <!-- header section strats -->
+    <header class="header_section">
+      <div class="container-fluid">
+        <nav class="navbar navbar-expand-lg custom_nav-container">
+          <a class="navbar-brand" href="index.html">
+            <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
+            <span>
+              MultiCreativa
+            </span>
+            <img src="Imagenes/MultiCreativa.png" alt="Descripción de la imagen">
+          </a>
+          <h1 style="color: white;">Galería </h1>
+
+          <div class="navbar-collapse" id="">
+            <div class="d-none d-lg-flex ml-auto flex-column flex-lg-row align-items-center mt-3">
+              <form class="form-inline mb-3 mb-lg-0 ">
+                <button class="btn  my-sm-0 nav_search-btn" type="submit"></button>
+              </form>
+              <ul class="navbar-nav  mr-5">
+                <li class="nav-item mr-5">
+                  <a class="nav-link" href="service.html">
+                  </a>
+                </li>
+              </ul>
+            </div>
+
+            <div class="custom_menu-btn">
+              <button onclick="openNav()">
+                <span class="s-1"> </span>
+                <span class="s-2"> </span>
+                <span class="s-3"> </span>
+              </button>
+            </div>
+            <style>
+                .overlay-content a {
+                    font-size: 50px; /* Ajusta el tamaño según tus necesidades */
+                }
+            </style>
+            <div id="myNav" class="overlay">
+              <div class="overlay-content">
+                <a href="index.html">Inicio</a>
+                  <a href="feature.html">Servicios</a>
+                  <a href="about.html">Somos</a>
+                  <a href="contact.html">Solicitud</a>
+                  <a href="contacto.html">Contacto</a>
+                  <a href="galeria.html">Galería</a>
+                  <a href="Video.html">Videos</a>
+              </div>
+            </div>
+          </div>
+        </nav>
+      </div>
+    </header>
+    <!-- end header section -->
+  </div>
+
+
+  <style>
+    body {
+        font-family: "Playfair Display", serif;
+    }
+
+    .gallery {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+        gap: 20px;
+    }
+
+    .gallery-item {
+        position: relative;
+        overflow: hidden;
+        text-align: center;
+    }
+
+    .gallery-item img {
+        width: 100%;
+        height: auto;
+        border-radius: 10px;
+        transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+
+    .gallery-item:hover img {
+        transform: scale(1.1); /* Aumenta ligeramente el tamaño */
+        box-shadow: 0 10px 15px rgba(0, 0, 0, 0.3); /* Agrega una sombra elegante */
+    }
+
+    .description {
+        margin-top: 10px;
+        font-size: 0.9em;
+        color: #555;
+    }
+</style>
+</head>
+<body>
+  <style>
+    .gallery {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr); /* 3 columnas */
+        gap: 20px; /* Espaciado entre elementos */
+    }
+    .gallery-item {
+        position: relative;
+        overflow: hidden;
+        text-align: center;
+    }
+    .gallery-item img {
+        width: 100%;
+        height: auto;
+        border-radius: 10px;
+        transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+    .gallery-item:hover img {
+        transform: scale(1.1);
+        box-shadow: 0 10px 15px rgba(0, 0, 0, 0.3);
+    }
+    .description {
+        margin-top: 10px;
+        font-size: 0.9em;
+        color: #ffffff;
+    }
+</style>
+
+
+<div class="gallery">
+  <div class="gallery-item">
+    <div class="card-flip">
+      <div class="card-front">
+        <img src="Imagenes/tazas.jpg" alt="Imagen 1">
+      </div>
+      <div class="card-back">
+        IEn Multicreativa, convertimos tus ideas en realidad diseñando y personalizando tazas únicas que reflejan tu estilo, 
+        pasión o mensaje. Ya sea para un regalo especial, un evento corporativo o simplemente para darle un toque distintivo a tu día,
+         nuestras tazas son el lienzo perfecto para plasmar tus ideas. ¡Haz que cada sorbo sea memorable!
+      </div>
+    </div>
+  </div>
+  <div class="gallery-item">
+    <div class="card-flip">
+      <div class="card-front">
+        <img src="Imagenes/vaso.jpg" alt="Imagen 2">
+      </div>
+      <div class="card-back">
+        En Multicreativa, diseñamos vasos exclusivos que llevan impreso el espíritu de tu marca.
+         Desde logos corporativos hasta mensajes creativos, nos aseguramos de que cada detalle refleje la identidad de tu negocio. 
+         Perfectos para promociones, eventos o campañas publicitarias, 
+         nuestros vasos son una excelente herramienta para reforzar la presencia de tu marca.
+      </div>
+    </div>
+  </div>
+  <div class="gallery-item">
+    <div class="card-flip">
+      <div class="card-front">
+        <img src="Imagenes/cona.jpg" alt="Imagen 3">
+      </div>
+      <div class="card-back">
+        Multicreativa se especializa en el diseño y producción de artículos promocionales que no solo captan la atención,
+         sino que también posicionan tu marca en el mercado laboral. Desde calendarios, termos y tazas, hasta playeras y vasos, 
+         nos aseguramos de que cada producto promocional deje una impresión duradera en tus clientes y colaboradores.
+      </div>
+    </div>
+  </div>
+  <div class="gallery-item">
+    <div class="card-flip">
+      <div class="card-front">
+        <img src="Imagenes/Imagen 6.jpg" alt="Imagen 2">
+      </div>
+      <div class="card-back">
+        En Multicreativa, valoramos la diversidad y la inclusión. 
+        Por ello, diseñamos productos promocionales adaptados a todas las creencias y expresiones religiosas.
+         Si buscas artículos personalizados para eventos religiosos, festividades o campañas espirituales,
+         nuestro equipo trabaja contigo para materializar tus ideas con respeto y creatividad.
+      </div>
+    </div>
+  </div>
+  <div class="gallery-item">
+    <div class="card-flip">
+      <div class="card-front">
+        <img src="Imagenes/comce.jpg" alt="Imagen 2">
+      </div>
+      <div class="card-back">
+        Si deseas que tu música llegue a más personas, Multicreativa es tu mejor aliado. 
+        Diseñamos estrategias visuales y promocionales para que tu grupo, banda o proyecto musical tenga mayor visibilidad.
+         Desde mercancía personalizada hasta campañas digitales, ayudamos a que tu talento resuene en todas partes.
+      </div>
+    </div>
+  </div>
+  <div class="gallery-item">
+    <div class="card-flip">
+      <div class="card-front">
+        <img src="Imagenes/termo.jpg" alt="Imagen 2">
+      </div>
+      <div class="card-back">
+        Multicreativa te ofrece la posibilidad de plasmar tus ideas y creatividad en termos y vasos personalizados.
+         Ya sea para tu empresa, eventos especiales o como regalo promocional, 
+         te garantizamos productos de alta calidad con diseños únicos que harán que cada cliente o colaborador recuerde tu marca.
+      </div>
+    </div>
+  </div>
+  <div class="gallery-item">
+    <div class="card-flip">
+      <div class="card-front">
+        <img src="Imagenes/blusa.jpg" alt="Imagen 2">
+      </div>
+      <div class="card-back">
+        En Multicreativa, convertimos tus ideas digitales en realidad física diseñando playeras personalizadas que reflejan exactamente lo que quieres expresar.
+         Ya sea para promociones, eventos, campañas o simplemente para destacar un mensaje especial,
+          nuestras playeras combinan creatividad y calidad en cada detalle.
+      </div>
+    </div>
+  </div>
+  <div class="gallery-item">
+    <div class="card-flip">
+      <div class="card-front">
+        <img src="Imagenes/grad.jpg" alt="Imagen 2">
+      </div>
+      <div class="card-back">
+        Multicreativa va más allá del diseño digital, convirtiendo tus conceptos creativos en productos físicos impactantes. 
+        Si tienes una idea en mente para promocionar tu marca o negocio,
+         nosotros nos encargamos de materializarla para que llegue directamente a tu público.
+      </div>
+    </div>
+  </div>
+  <div class="gallery-item">
+    <div class="card-flip">
+      <div class="card-front">
+        <img src="Imagenes/calendario.jpg" alt="Imagen 2">
+      </div>
+      <div class="card-back">
+        Regala algo útil y memorable a tus clientes. 
+        Multicreativa diseña calendarios personalizados que llevan el sello distintivo de tu marca. 
+        Perfectos para mantener presente tu negocio durante todo el año, 
+        nuestros calendarios son una herramienta de marketing efectiva que combina funcionalidad y diseño atractivo.
+      </div>
+    </div>
+  </div>
+  <!-- Continúa con más elementos -->
+</div>
+
+  
+  <!-- contact section -->
+  
+  <!-- end contact section -->
+
+  <!-- info section -->
+  <section class="info_section layout_padding">
+    <div class="container info_content">
+      <div>
+        <div class="row">
+          <div class="col-md-4">
+            <div class="d-flex">
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="d-flex flex-column flex-lg-row justify-content-between align-items-center align-items-lg-baseline">
+        <div class="social-box">
+          
+            <a href="https://web.facebook.com/people/Multi-Creativa/100088055239722/?_rdc=1&_rdr#">
+                <img src="Imagenes/fb.png" alt="" />
+              </a>
+              <a href="tel:5567650635">
+                <img src="Imagenes/whatsapp (4).png" alt="" />
+              </a>
+              <a href="https://www.instagram.com/multi_creativa1/">
+                <img src="Imagenes/instagram1.png" alt="" />
+              </a>
+              <a href="https://maps.app.goo.gl/YiD6GwoWhU2eBgtX6">
+                <img src="Imagenes/maps.png" alt="" />
+              </a>
+        </div>
+        <div class="form_container mt-5">
+          <form action="">
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- end info section -->
+
+  <!-- footer section -->
+  <section class="container-fluid footer_section">
+    <th><span>Teléfono</span></th>
+    <td>
+      <a href="tel:567650635"><span>567650635</span></a>
+    </td>
+    <p>
+      <a href="https://maps.app.goo.gl/YiD6GwoWhU2eBgtX6"><span>Valle de San Miguel Mz 15 Lt 3 bosques de los héroes Tecamac, Tecamác, Mexico, 55767</span></a>
+    </p>
+  </section>
+  <!-- footer section -->
+
+  <script type="text/javascript" src="js/jquery-3.4.1.min.js"></script>
+  <script type="text/javascript" src="js/bootstrap.js"></script>
+
+  <script>
+    function openNav() {
+      document.getElementById("myNav").classList.toggle("menu_width");
+      document
+        .querySelector(".custom_menu-btn")
+        .classList.toggle("menu_btn-style");
+    }
+  </script>
+</body>
+
+</html>
